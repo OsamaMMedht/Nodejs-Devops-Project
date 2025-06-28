@@ -10,13 +10,13 @@ variable "aws_secret_key" {
 
 variable "name_prefix" {
   type        = string
-  default     = "cluster-1"
+  default     = "nodejs-cluster"
   description = "Prefix to be used on each infrastructure object Name created in AWS."
 }
 
 variable "region" {
   type    = string
-  default = "eu-central-1"
+  default = "us-east-1"
 }
 
 variable "environment" {
