@@ -56,7 +56,7 @@ kubectl create secret generic $dbsecret --from-literal=DB_PASSWORD=$PASSWORD --n
 
 # Deploy the app
 Write-Host "--------------------Deploy App--------------------"
-kubectl apply -n $namespace -f k8s
+kubectl apply -n $namespace -f k8s-eks
 
 # Wait for pods
 Write-Host "--------------------Wait for all pods to be running--------------------"
