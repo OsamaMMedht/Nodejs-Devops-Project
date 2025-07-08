@@ -307,9 +307,3 @@ In case you need to tear down the infrastructure and services that you have depl
    ```
 
 This script will execute another script `ecr-img-delete.sh` which will delete all the images on the `ECR` to make sure the `ECR` is empty then `terraform` commands to destroy all resources related to your deployment. It is essential to verify that the script has completed successfully to ensure that all resources have been cleaned up and no unexpected costs are incurred.
-
-## Project Mentor :
-
-Jony Dev
-
-🎥 For a detailed walkthrough into this project, check out His video for this project on YouTube: [HERE](https://youtu.be/2ra-Ts9tYQ8).
